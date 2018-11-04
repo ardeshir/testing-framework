@@ -1,8 +1,7 @@
 .git
-
+node_modules
 *.docs
 *.lock
 
 
-.git 
 .gitignore 
