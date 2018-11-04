@@ -4,7 +4,8 @@
   "description": "testing",
   "main": "globals.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint src"
   },
   "repository": {
     "type": "git",
