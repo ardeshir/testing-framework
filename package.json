@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/ardeshir/testing-framework/issues"
   },
-  "homepage": "https://github.com/ardeshir/testing-framework#readme"
+  "homepage": "https://github.com/ardeshir/testing-framework#readme",
+  "devDependencies": {
+    "eslint": "^5.8.0"
+  }
 }
