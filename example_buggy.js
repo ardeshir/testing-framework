@@ -1,12 +1,13 @@
-const name = 'Freddy'
-typeof name === 'strng'
+const name = "Freddy";
+typeof name === "strng";
 
-if (!'serviceWorker' in navigator) {
+if (!"serviceWorker" in navigator) {
   // you and old browser :-(
 }
 
-const greeting = 'hello'
+const greeting = "hello";
 
-console.log('${greeting} world!')
+console
+  .log("${greeting} world!")
 
-[(1,2,3)].forEach( x => console.log(x))
+  [(1, 2, 3)].forEach(x => console.log(x));
