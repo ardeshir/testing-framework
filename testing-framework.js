@@ -2,8 +2,8 @@
 //const sub = (a, b) => a - b
 
 const {sum, sub} = require('./math')
-
-
+/*
+// refactured into arrow functions inside the test function 
 function sumTest() {
   const result   = sum(3, 7)
   const expected = 10
@@ -15,10 +15,19 @@ function subTest() {
   const expected = 4
   expect(result).toBe(expected)
 }
+*/
+test('sum() adds numbers', () => {
+  const result   = sum(3, 7)
+  const expected = 10
+  expect(result).toBe(expected)
+})
 
-test('sum adds numbers', sumTest)
+test('sub() substracts numbers', () => {
+  const result   = sub(7, 3)
+  const expected = 4
+  expect(result).toBe(expected)
 
-test('sub substracts numbers', subTest)
+})
 /* if (result !== expected) {
  throw new Error(`${result} is not equal to ${expected}`)
 
