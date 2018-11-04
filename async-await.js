@@ -48,9 +48,9 @@ if (result !== expected) {
 
 // expect(resutl).toBe(expected)
 
-function test(title, callback) {
+async function test(title, callback) {
    try {
-     callback()
+     await callback()
      console.log(`Passed: ${title}`)
    } catch(error) {
      console.error(`Failed:  ${title}`)
