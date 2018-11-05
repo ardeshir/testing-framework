@@ -3,9 +3,11 @@
     "ecmaVersion": "2018"
     },
   "extends": [
-    "eslint:recommended"
+    "eslint:recommended",
+    "eslint-config-prettier"
     ],
   "rules": {
+    "semi": "off",
     "no-console": "off"
     },
   "env": {
